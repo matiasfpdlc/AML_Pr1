@@ -1,0 +1,19 @@
+{
+  "weights": {
+    "XGBoost": 0.8,
+    "LightGBM": 0.0,
+    "CatBoost": 0.0,
+    "SVR": 0.2
+  },
+  "cv_r2": 0.5076244495467221,
+  "train_r2": 0.6935969604093191,
+  "overfit_gap": 0.18597251086259692,
+  "individual_cv_r2": {
+    "XGBoost": 0.5050365822785143,
+    "LightGBM": 0.47845896967567336,
+    "CatBoost": 0.48803613318708006,
+    "SVR": 0.4659332401500924
+  },
+  "feature_selection": "ReliefF k=250",
+  "timestamp": "20251101_182257"
+}

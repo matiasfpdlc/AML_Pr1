@@ -1,0 +1,22 @@
+================================================================================
+XGBOOST COMPREHENSIVE GRID SEARCH
+Goal: Improve CV R² from 0.5 to > 0.52
+================================================================================
+
+📂 Loading data...
+✓ Loaded training data: X_train shape (1212, 832), y_train shape (1212,)
+  - Features: 832
+  - Samples: 1212
+  - Missing values: 76902
+  - Age range: [42.0, 97.0]
+✓ Loaded test data: X_test shape (776, 832)
+  - Features: 832
+  - Samples: 776
+  - Missing values: 40634
+✓ Training: 1212 samples, 832 features
+✓ Test: 776 samples
+
+🔧 Preprocessing...
+✓ After outlier removal: 1151 samples
+
+🔬 Applying ReliefF feature selection (k=250)...
